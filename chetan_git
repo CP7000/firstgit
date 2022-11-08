@@ -1,0 +1,13 @@
+git -v = shows version
+git init = initializes .git folder/repositries
+git add * = adds all files to .git folder
+git add "file name" = adds specific file named as 'file name'
+git commit -m "comment" = cmments all files with comments as "comments"
+git remote add alias "link" = adds link to remote repositries with alias
+git remote = shows all links
+git push alias_link "folder" = adds "folder" to alias_link  here alias_link is a online repositry via link
+git pull alias_link "folder" = fetches "folder" from  alias_link to master here alias_link is a online repositry via link
+git rm --cached "file name" = removes "file name" temporarly
+git rm -f 'file name" =  removes "file name" by force
+git restore --staged "file name" = restores "file name" which was deleted temporarly
+git ls-files = list all files in git
